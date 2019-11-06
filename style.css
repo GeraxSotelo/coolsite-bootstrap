@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.border-top {
+  border-top: 10px solid blue !important;
+}
+
+header, footer {
+  height: 10vh;
+}
+
+main {
+  flex-grow: 1;
+}
